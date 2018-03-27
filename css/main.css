@@ -1,0 +1,122 @@
+* {
+	box-sizing: border-box;
+}
+
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+
+body {
+	background-color: #FCFBE3;
+	font-family: 'Open Sans', sans-serif;
+	-webkit-font-smoothing: antialiased;
+	font-size: 16px;
+}
+
+header {
+	padding: 20px;
+}
+
+.container {
+	max-width: 500px;
+  width: 100%;
+  background-color: white;
+  border-radius: 3px;
+  margin: 40px auto;
+}
+
+img {
+	clear: both;
+	max-width: 100%;
+}
+
+h1 {
+	float: left;
+	line-height: 32px;
+	font-size: 16px;
+	font-weight: 400;
+	margin: 0;
+}
+
+.container > p {
+	margin: 20px;
+}
+
+
+header span {
+	color: #888;
+	font-size: 15px;
+	float: right;
+	line-height: 32px;
+}
+
+.fa {
+	display: block;
+	float: right;
+	color: #888;
+	margin-top: 3px;
+	margin-left: 14px;
+	cursor: pointer;
+}
+
+input {
+	font-size: 16px;
+	border: none;
+	width: 100%;
+	resize: none;
+	padding: 10px 20px;
+	float: left;
+}
+
+input:focus,
+input:active {
+	outline: none;
+
+}
+
+form {
+	border-top: 1px solid #efefef;
+	padding: 15px 20px 15px 0;
+}
+
+li {
+	list-style: none;
+	margin: 10px 0;
+}
+
+
+/* To make HTML more readable, adding styles here instead of a clearfix */
+li:before,
+li:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+li:after {
+    clear: both;
+}
+
+
+
+li p {
+	float: left;
+	font-style: italic;
+	margin: 0;
+}
+
+li span {
+	float: left;
+	margin-right: 12px;
+	color: #888;
+}
+
+ul {
+	padding: 0 20px;
+}

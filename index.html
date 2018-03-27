@@ -1,0 +1,50 @@
+<!doctype html>
+<head>
+  <meta charset="utf-8">
+
+  <title>Image Sharer</title>
+
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,400italic' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+
+<!-- Basic Page Structure -->
+  <div class="container cf">
+    <header class="cf">
+      <h1>Bill Smith</h1>
+      <span>13h</span>
+    </header>
+    <img src="images/post.jpeg" alt="hat">
+    <p>Lazy Sunday in the Midwest.</p>
+    <ul class="comments">
+
+    </ul>
+    <form id="comment-form" class="cf">
+        <input id="comment" type="text" placeholder="Leave a comment">
+    </form>
+  </div>
+
+<!-- Handlebars Template -->
+  <script id="comment-template" type="text/x-handlebars-template">
+    <li data-id="{{commentId}}">
+      <span id="likes">{{likes}}</span>
+      <p>{{comment}}</p>
+      <i class="fa fa-trash delete"></i>
+      <i class="fa fa-heart-o like"></i>
+    </li>
+  </script>
+
+
+<!-- Firebase CDN -->
+  <script src="https://www.gstatic.com/firebasejs/live/3.0/firebase.js"></script>
+  <script src="js/handlebars-v4.0.5.js"></script>
+  <script src="js/jquery-3.0.0.min.js"></script>
+<!-- Main js file -->
+  <script src="js/main.js"></script>
+
+</body>
+
+</html>

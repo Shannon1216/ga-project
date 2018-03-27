@@ -1,0 +1,28 @@
+[debug] ----------------------------------------------------------------------
+[debug] Command:      /usr/local/bin/node /usr/local/bin/firebase serve
+[debug] CLI Version:  3.0.4
+[debug] Platform:     darwin
+[debug] Node Version: v4.2.2
+[debug] Time:         Sun Jul 10 2016 19:52:09 GMT-0700 (PDT)
+[debug] ----------------------------------------------------------------------
+[debug] 
+[info] Starting Firebase development server...
+[info] 
+[warn] ⚠  No Firebase project directory detected. Serving static content from /Users/sarah/Desktop/JS_Materials/curriculum/lesson-plans/15-intro-to-crud-and-firebase/solution-code
+[warn] ⚠  Port 5000 is not available. Trying another port...
+[info] 
+[info] Server listening at: http://localhost:5001
+[debug] ----------------------------------------------------------------------
+[debug] Command:      /usr/local/bin/node /usr/local/bin/firebase serve
+[debug] CLI Version:  3.0.4
+[debug] Platform:     darwin
+[debug] Node Version: v4.2.2
+[debug] Time:         Tue Jul 12 2016 16:25:13 GMT-0700 (PDT)
+[debug] ----------------------------------------------------------------------
+[debug] 
+[info] Starting Firebase development server...
+[info] 
+[warn] ⚠  No Firebase project directory detected. Serving static content from /Users/sarah/Desktop/circuits/starter_code_lesson_08/solution-code
+[warn] ⚠  Port 5000 is not available. Trying another port...
+[info] 
+[info] Server listening at: http://localhost:5001
